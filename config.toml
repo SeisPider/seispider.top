@@ -54,13 +54,13 @@ highlightjs = true
 [[menu.main]]
     name = "Blog"
     weight = 100
-    identifier = "blog"
+    identifier = "Blog"
     url = "https://blog.seispider.top/"
 [[menu.main]]
     name = "Home"
-    identifier = "about"
+    identifier = "home"
     weight = 200
-    url = "https://home.seispider.top/"
+    url = "http://home.ustc.edu.cn/~xiaox17/"
 [[menu.main]]
     name = "Wiki"
     identifier = "wiki"
