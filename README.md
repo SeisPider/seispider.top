@@ -1,15 +1,12 @@
-# Hugo Goa Demo
+SeisPider
+=========
 
 ## About
+This website collects all international resources produced by Xiao Xiao
 
-This site demonstrates the use of the [Hugo Goa Theme](https://github.com/shenoybr/hugo-goa) by [@shenoybr](https://github.com/shenoybr).
-
-## Usage
-
-* Install [Hugo](gohugo.io)
-* git clone https://github.com/shenoybr/hugo-goa-demo
-* Run `hugo server -w -v` from the root directory
-* Site will be visible at `localhost:1313`
+- Website: http://seispider.top
+- Modified from: https://html5up.net/dimension
+- Engine: [hugo](http://gohugo.io)
 
 ## License
 
