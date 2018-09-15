@@ -1,3 +1,73 @@
-baseURL = "seispider.top"
-languageCode = "en-us"
-title = "SeisPider"
+## Basic Configuration
+
+baseurl = "/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+#contentdir = "content"
+#layoutdir = "layouts"
+#publishdir = "public"
+
+author = "Xiao Xiao"
+title = "Xiao Xiao"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+#enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Xiao Xiao"
+intro = "Young seismologist in the University of Science and Technology of China"
+description = "Now @USTC. Previously @Wuhan University. <br/> \"No man is an island\""
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal introduction page"
+keywords = "blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "SeisPider"
+#instagram = "<username>"
+#xing = "<username>"
+#linkedin = "<username>"
+#twitter = "<username>"
+#facebook = "<username>"
+#google = "<username>"
+#stackoverflow = "<username>"
+email = "xiaox.seis@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Xiao Xiao. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "https://blog.seispider.top/"
+[[menu.main]]
+    name = "Home"
+    identifier = "about"
+    weight = 200
+    url = "https://home.seispider.top/"
+[[menu.main]]
+    name = "Wiki"
+    identifier = "wiki"
+    weight = 300
+    url = "https://wiki.seispider.top/"
+[[menu.main]]
+    name = "Links"
+    identifier = "link"
+    weight = 400
+    url = "https://link.seispider.top/"
