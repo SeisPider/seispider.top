@@ -60,7 +60,7 @@ highlightjs = true
     name = "Home"
     identifier = "home"
     weight = 200
-    url = "http://home.ustc.edu.cn/~xiaox17/"
+    url = "https://me.seispider.top/"
 [[menu.main]]
     name = "Wiki"
     identifier = "wiki"
